@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ClassroomCommunity</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="pass">Mot de passe</string>
+    <string name="btn">S\'authentifier</string>
+    <string name="time">TEMPS RESTANT</string>
+</resources>

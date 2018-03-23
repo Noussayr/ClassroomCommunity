@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="classroomcommunity.paci.iut.classroomcommunity.Quiz"
+    android:background="@color/colorDark">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/player1icon"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:src="@drawable/asap"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/player1"
+                android:layout_alignBottom="@+id/progressBar"
+                android:layout_toRightOf="@+id/player1icon"
+                android:layout_toEndOf="@+id/player1icon" />
+
+
+
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/player1"
+            android:layout_toLeftOf="@+id/player2"
+            android:textColor="#1cc4fb"
+            android:text="@string/time" />
+
+
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_toLeftOf="@+id/player2icon"
+                android:gravity="right"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/player2"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/player2icon"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:src="@drawable/guest"
+                android:layout_alignParentRight="true"/>
+
+
+    <TextView
+        android:id="@+id/chrono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:textColor="#1cc4fb"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity ="center"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="Quel technologie permet de se connecter à un réseau sans fil ?"
+            android:textSize="30dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="GSM"
+            android:background="@color/colorWhite"
+            android:id="@+id/Rep01"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Infrarouge"
+            android:layout_marginBottom="10dp"
+
+            android:background="@color/colorWhite"
+            android:id="@+id/Rep02"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Bluetooth"
+            android:layout_marginBottom="10dp"
+
+            android:background="@color/colorWhite"
+            android:id="@+id/Rep03"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Wifi"
+            android:background="@color/colorWhite"
+            android:id="@+id/Rep04"/>
+
+    </LinearLayout>
+</RelativeLayout>
