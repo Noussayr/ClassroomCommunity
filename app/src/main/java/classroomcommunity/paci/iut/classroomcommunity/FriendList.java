@@ -48,11 +48,13 @@ public class FriendList extends AppCompatActivity   {
                 Intent i = new Intent(FriendList.this, Quiz.class );
                 Bundle bun = getIntent().getExtras();
 
+                // Récupération du login du joueur
                 String player = bun.getString("username");
 
-
-
+                // Récupération du nom de l'ami contre qui on joue
                 bun.putString("challenger", selectedItem.getNom());
+
+                // Chargement des données dans l'intent lançant le Quiz
                 i.putExtra("username", player);
                 i.putExtras(bun);
                 startActivity(i);

@@ -4,4 +4,5 @@
     <string name="pass">Mot de passe</string>
     <string name="btn">S\'authentifier</string>
     <string name="time">TEMPS RESTANT</string>
+    <string name="question01">Quel technologie permet de se connecter à un réseau sans fil ?</string>
 </resources>

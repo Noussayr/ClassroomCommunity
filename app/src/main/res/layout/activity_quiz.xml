@@ -83,13 +83,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:orientation="vertical"
 
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
 
 
         <TextView
@@ -98,7 +95,7 @@
             android:layout_gravity ="center"
             android:gravity="center"
             android:layout_marginBottom="15dp"
-            android:text="Quel technologie permet de se connecter à un réseau sans fil ?"
+            android:text="@string/question01"
             android:textSize="30dp"
             android:textColor="@color/colorWhite"/>
 

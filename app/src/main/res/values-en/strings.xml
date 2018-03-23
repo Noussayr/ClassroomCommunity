@@ -5,4 +5,5 @@
     <string name="identifiant">Username</string>
     <string name="pass">Password</string>
     <string name="time">Time</string>
+    <string name="question01">What technology allow to users to access wireless network ?</string>
 </resources>

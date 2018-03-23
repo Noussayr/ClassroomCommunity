@@ -5,4 +5,5 @@
     <string name="identifiant">Usuario</string>
     <string name="pass">Contraseña</string>
     <string name="time">Tiempo</string>
+    <string name="question01">" ¿Qué tecnología se puede conectar a una red inalámbrica?"</string>
 </resources>
